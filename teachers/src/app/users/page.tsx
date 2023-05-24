@@ -1,4 +1,5 @@
 import { LogoCubos } from "@/components/LogoCubos"
+import Link from "next/link"
 
 export default function Login() {
   return (
@@ -10,7 +11,7 @@ export default function Login() {
           <input type="text" placeholder="Password" className="h-12 w-72 pl-4 rounded-sm bg-zinc-800" />
           <span className="text-sm font-light leading-tight">Não tem cadastro? clique aqui</span>
 
-          <button className="h-12 w-72 mt-11 bg-pink-600">Login</button>
+          <Link href="/" className="flex items-center justify-center h-12 w-72 mt-11 bg-pink-600">Login</Link>
         </form>
       </div>
     </div>
